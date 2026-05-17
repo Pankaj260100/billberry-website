@@ -50,28 +50,6 @@ document.querySelectorAll('.about-grid, .products-grid, .features-grid').forEach
   });
 });
 
-// Contact form handler
-function handleSubmit(e) {
-  e.preventDefault();
-  const form = e.target;
-  const btn = form.querySelector('button');
-  const originalText = btn.textContent;
-
-  btn.textContent = 'Sending...';
-  btn.disabled = true;
-
-  setTimeout(() => {
-    btn.textContent = 'Message Sent!';
-    btn.style.background = 'linear-gradient(135deg, #16a34a, #15803d)';
-    form.reset();
-
-    setTimeout(() => {
-      btn.textContent = originalText;
-      btn.style.background = '';
-      btn.disabled = false;
-    }, 2500);
-  }, 1000);
-}
 
 // Smooth scroll for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
