@@ -132,7 +132,8 @@
         </div>
       </div>
       <div class="products-cta">
-        <p>For detailed pricing and quotations tailored to your needs, please reach out to us. We also welcome custom requirements — let us know how we can serve you best.</p>
+        <h3>Looking for a Quotation?</h3>
+        <p>We offer tailored pricing based on your volume and requirements. Whether you need bulk supply for events, offices, hotels, or retail — reach out and we'll craft a quotation just for you. We also welcome custom packaging and branding requirements.</p>
         <a href="#contact" class="btn btn-primary">Request a Quotation</a>
       </div>
     </div>
@@ -224,11 +225,11 @@
             </div>
           </div>
         </div>
-        <form class="contact-form" onsubmit="handleSubmit(event)">
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <input type="tel" placeholder="Your Phone Number">
-          <textarea placeholder="Your Message" rows="4" required></textarea>
+        <form class="contact-form" action="https://formspree.io/f/xjgzbepz" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="tel" name="phone" placeholder="Your Phone Number">
+          <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
           <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
       </div>
