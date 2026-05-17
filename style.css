@@ -136,10 +136,10 @@ body {
 }
 
 .hero-image img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   border-radius: var(--radius-lg);
   box-shadow: 0 20px 60px rgba(0,0,0,0.15);
-  object-fit: contain;
 }
 
 /* ===== Hero ===== */
@@ -149,7 +149,7 @@ body {
   display: flex;
   align-items: center;
   padding: 120px 0 80px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .hero-bg {
@@ -329,9 +329,9 @@ body {
 
 .about-poster img {
   width: 100%;
+  height: auto;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
-  object-fit: contain;
 }
 
 .about-cards {
@@ -540,7 +540,7 @@ body {
 
 .cta-image img {
   width: 100%;
-  object-fit: contain;
+  height: auto;
   border-radius: var(--radius-lg);
   box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
@@ -772,7 +772,8 @@ body {
   }
 
   .hero-image img {
-    max-height: 360px;
+    width: 100%;
+    height: auto;
   }
 
   .hero h1 {
