@@ -384,16 +384,28 @@ body {
 
 .products-grid.three-col {
   grid-template-columns: repeat(3, 1fr);
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
+  justify-items: center;
 }
 
 .products-cta {
   text-align: center;
-  margin-top: 48px;
-  max-width: 600px;
+  margin-top: 72px;
+  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
+  padding: 40px;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.products-cta h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 12px;
 }
 
 .products-cta p {
