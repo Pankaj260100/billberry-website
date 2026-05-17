@@ -137,10 +137,9 @@ body {
 
 .hero-image img {
   max-width: 100%;
-  max-height: 520px;
   border-radius: var(--radius-lg);
   box-shadow: 0 20px 60px rgba(0,0,0,0.15);
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* ===== Hero ===== */
@@ -332,6 +331,7 @@ body {
   width: 100%;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
+  object-fit: contain;
 }
 
 .about-cards {
@@ -540,8 +540,7 @@ body {
 
 .cta-image img {
   width: 100%;
-  max-height: 480px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: var(--radius-lg);
   box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
